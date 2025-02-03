@@ -1,11 +1,8 @@
 public class Main {
     public static void main(String[] args){
-        int[] array = {11, 23,21, 45, 55, 76, 89, 32, 54};
-        int maxNumber = array[0];
-        for (int i = 1; i < array.length; i++) {
-            if(array[i]>maxNumber) maxNumber = array[i];
-        }
-        System.out.println(maxNumber);
+        System.out.println(MathFunctions.areaCircle(4));
+        System.out.println(MathFunctions.powerExp(4));
+        System.out.println(MathFunctions.areaTriangle(3,4,5));
     }
 
     // Topshiriq #1
